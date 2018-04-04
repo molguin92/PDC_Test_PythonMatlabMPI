@@ -1,6 +1,6 @@
 # Instructions for running the code:
 1. Log into Tegner and move into your Private folder: `cd Private`.
-2. Copy these files onto Tegner (you can do this by running `$ git clone https://github.com/molguin92/PDC_Test_PythonMatlabMPI.git`), then move into the folder: `$ cd PDC_Test_PythonMatlabMPI`.
+2. Download these files onto Tegner (you can do this by running `$ git clone https://github.com/molguin92/PDC_Test_PythonMatlabMPI.git`), then move into the folder: `$ cd PDC_Test_PythonMatlabMPI`.
 3. Request a job allocation (for example, two nodes for 10min, run 1 task per node, total of 2 task - i.e. they will execute on two distinct nodes):
 ```bash
 $ salloc -A 2018-8 -t 0:10:00 --nodes=2 --ntasks-per-node=1
