@@ -7,7 +7,7 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 node = MPI.Get_processor_name()
 
-matlab_cmd = ['matlab', '-nodesktop', '-nosplash', '-r', 'node={name};test'.format(name=node)]
+matlab_cmd = ['matlab', '-nodesktop', '-nosplash', '-r', 'node=\'{name:s}\';test'.format(name=node)]
 subprocess.run(matlab_cmd)
 
 
