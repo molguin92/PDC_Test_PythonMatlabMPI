@@ -7,7 +7,8 @@ $ salloc -A 2018-8 -t 0:10:00 --nodes=2 --ntasks-per-node=1
 ``` 
 4. When you get the allocation, load the required modules:
 ```bash
-$ module add intelmpi/5.0.3
+$ module add i-compilers/18.0.1
+$ module add intelmpi/18.0.1
 $ module add anaconda/py36/5.0.1
 $ module add matlab/r2017a
 ```
